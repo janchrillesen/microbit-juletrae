@@ -7,7 +7,7 @@ for (let index = 0; index < 22; index++) {
     maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 150)
     basic.pause(1000)
     maqueen.motorStop(maqueen.Motors.All)
-    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 30)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 35)
     basic.pause(300)
     maqueen.motorStop(maqueen.Motors.M2)
 }
